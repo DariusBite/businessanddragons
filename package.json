@@ -1,0 +1,22 @@
+{
+  "name": "businessanddragons",
+  "version": "0.0.1",
+  "description": "downtime game from pathfinder rpg",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariusBite/businessanddragons.git"
+  },
+  "author": "Mario Alban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariusBite/businessanddragons/issues"
+  },
+  "homepage": "https://github.com/DariusBite/businessanddragons#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
