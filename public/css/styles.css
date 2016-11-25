@@ -1,3 +1,57 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+body,
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #dcdcdc;
+  font-family: "Open Sans", sans-serif;
+  color: #232323; }
+  body.bodyDark {
+    background: #232323;
+    color: white; }
+
+form {
+  margin: 0;
+  padding: 0;
+  -moz-placeholder-color: #232323;
+  -ms-input-placeholder-color: #232323; }
+  form input {
+    border: 0;
+    background: #dcdcdc;
+    color: #232323;
+    width: 100%; }
+  form ::-webkit-input-placeholder {
+    color: #232323; }
+  form ::-moz-placeholder {
+    color: #232323; }
+  form button {
+    border: 0;
+    background: #4e0000;
+    color: white;
+    text-transform: uppercase; }
+
+.login-form {
+  width: 100%;
+  max-width: 300px;
+  margin: auto; }
+  .login-form input {
+    border-bottom: 1px solid #232323; }
+    .login-form input#email {
+      -moz-border-radius-topleft: 5px;
+      -webkit-border-top-left-radius: 5px;
+      border-top-left-radius: 5px;
+      -moz-border-radius-topright: 5px;
+      -webkit-border-top-right-radius: 5px;
+      border-top-right-radius: 5px; }
+  .login-form button {
+    width: 100%;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
