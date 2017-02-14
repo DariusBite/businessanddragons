@@ -1,5 +1,16 @@
 # Business & Dragons
 
+r1: 6
+r2: 8
+r3: 10
+r4: 12
+r5: 14
+r6: 14
+r7: 12
+r8: 10
+r9: 8
+r10: 6
+
 hex {
   hex_id: 1
   kingdom_id: 1
@@ -29,8 +40,13 @@ building: {
   building_id: 1
   name:
   district_id:
-  size:
   row: {}
   cell: {}
-  type:
+  building_type_id:
+}
+
+buildingType {
+  building_type_id:
+  name:
+  size:
 }
